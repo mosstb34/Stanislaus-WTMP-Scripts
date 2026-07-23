@@ -4,7 +4,7 @@ import os,time,sys#,shutil
 from distutils.dir_util import copy_tree
 from com.rma.model import Project
 
- -----------------------------------------------------------------------
+# -----------------------------------------------------------------------
 # sys.path cleanup: remove project-specific script folders from other
 # watersheds to prevent module name collisions across WAT alternatives
 # -----------------------------------------------------------------------
