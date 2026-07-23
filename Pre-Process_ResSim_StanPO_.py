@@ -15,7 +15,7 @@ import os, sys
 from com.rma.io import DssFileManagerImpl
 from com.rma.model import Project
 
- -----------------------------------------------------------------------
+# -----------------------------------------------------------------------
 # sys.path cleanup: remove project-specific script folders from other
 # watersheds to prevent module name collisions across WAT alternatives
 # -----------------------------------------------------------------------
