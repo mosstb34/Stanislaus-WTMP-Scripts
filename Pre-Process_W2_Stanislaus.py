@@ -228,9 +228,7 @@ def computeAlternative(currentAlternative, computeOptions):
             # work it's magic on the W2_con file and execute simulation    
 
     # Run the DMS pre-processing step to prepare W2 input DSS records for the Stanislaus watershed
-	# BUG (pre-existing): this line and the one below use tab indentation, mixing tabs and spaces;
-	# this will cause an IndentationError in Python 3 but is tolerated by Jython
-	DMS_preprocess.preprocess_W2_Stanislaus(currentAlternative, computeOptions)
+    DMS_preprocess.preprocess_W2_Stanislaus(currentAlternative, computeOptions)
 
-	# remove me most of the time
-	#backdate_W2_files_to_skip_compute(run_dir)
+    # remove me most of the time
+    #backdate_W2_files_to_skip_compute(run_dir)
